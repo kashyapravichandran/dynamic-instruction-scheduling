@@ -27,10 +27,10 @@ where,
   
  The above given format is followed so that the output obtained can be passed to a scope tool that tries to display the timing diagram in a format shown below for say 3 instruction A,B, and C. Let says they don't have any type of hazards. 
  
-      Cycle 1   Cycle 2   Cycle 3   Cycle 4   Cycle 5   Cycle 6   Cycle 7
-   A    IF        ID        IS        EX        WB
-   B    IF        ID        IS        EX        WB
-   C              IF        ID        IS        EX        WB
+ Inst    Cycle 1   Cycle 2   Cycle 3   Cycle 4   Cycle 5   Cycle 6   Cycle 7
+   A       IF        ID        IS        EX        WB
+   B       IF        ID        IS        EX        WB
+   C                 IF        ID        IS        EX        WB
  
  Let us assume that the bandwidth of the processor is 2. 
  
