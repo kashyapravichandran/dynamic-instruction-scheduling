@@ -13,7 +13,7 @@ The processor can have a total of 2S instruction in its fetch and decode stage. 
 
 ## Usage
 
-In a Linus machine, you can run a make command to get a executable. Run the command given below to get the timing diagram for the given trace file. 
+In a Linux machine, you can run a make command to get a executable. Run the command given below to get the timing diagram for the given trace file. 
 
 Trace file entry : <PC> <Type> <Destination Register> <Source 1> <Source 2> <Memory Address>
 where,  
